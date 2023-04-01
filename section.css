@@ -1,0 +1,50 @@
+.section_heading h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 2px;
+}
+
+.section {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.section .slider {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+
+.section .slider::-webkit-scrollbar {
+    height: 8px;
+    width: 4px;
+    background: #000;
+
+}
+
+.section .slider::-webkit-scrollbar-thumb:horizontal {
+
+    border-radius: 10px;
+    background: gray;
+}
+
+.slider img {
+    width: 300px;
+    height: 200x;
+    margin: 0px 10px 0px 0px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.slider img:hover {
+    transform: scale(1.2);
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+.all_sec{
+    width: 90%;
+    margin:auto;
+}
